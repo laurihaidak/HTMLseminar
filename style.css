@@ -23,3 +23,46 @@ table {
     border-collapse: collapse; /* Merge borders */
     margin: 20px 0; /* Space around the table */
 }
+
+ul {
+    list-style-type: disc; /* Default bullet points */
+    margin: 10px 0; /* Space around the list */
+    padding-left: 20px; /* Indent the list */
+}
+
+/* Ordered list styles */
+ol {
+    margin: 10px 0; /* Space around the list */
+    padding-left: 20px; /* Indent the list */
+}
+
+/* Link styles */
+a {
+    color: #3498db; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 8px; /* Space inside cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #2c3e50; /* Darker background for header */
+    color: white; /* White text color for header */
+}
+
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.column {
+    width: 48%;
+}
